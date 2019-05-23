@@ -43,11 +43,29 @@ ol {
   font-weight: bold;
 }
 
-input {
+input[type="radio"] {
 
-  cursor: pointer
-  outline: none
+  cursor:pointer;
+  outline:none;
 
 }
 
+select [type="expertise"] {
 
+  cursor:pointer;
+  outline:none;
+
+}
+
+input[type="submit"] {
+
+  cursor:pointer;
+  outline:none;
+
+}
+
+input[type="submit"]: last-child {
+
+  background-color: gold;
+
+}
